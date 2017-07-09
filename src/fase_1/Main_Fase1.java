@@ -30,22 +30,22 @@ public class Main_Fase1 {
 		dic.add(colaux);
 		System.out.println();
 		
-		System.out.println("Mostrando diccionario en orden alfabÃ©tico ascendente...");
+		System.out.println("Mostrando diccionario en orden alfabético ascendente...");
 		dic.show('A');
 		System.out.println();
 		System.out.println();
 		System.out.println();
 		
-		System.out.println("Mostrando diccionario en orden alfabÃ©tico descendente...");
+		System.out.println("Mostrando diccionario en orden alfabético descendente...");
 		dic.show('b');
 		System.out.println();
 		System.out.println();
 		
 		
-		System.out.println("AnÃ¡lisis de frecuencias...");
+		System.out.println("Análisis de frecuencias...");
 		System.out.println("La frec de *de* es: " + dic.search("de"));
 		System.out.println("La frec de *quijote* es: " + dic.search("quijote"));
-		System.out.println("La frec de *algÃºn* es: " + dic.search("algÃºn"));
+		System.out.println("La frec de *algún* es: " + dic.search("algún"));
 		System.out.println();
 		System.out.println();
 		
